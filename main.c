@@ -1,11 +1,11 @@
 #include <stdio.h>
 
-int main(void) 
+int main(void)
 {
     int num;
 
-    printf("整数を入力してください :");
-    scanf("%d",&num);
-    printf("入力した整数は%dです。\n", num); 
+    scanf("%d", &num);
+    printf("%d\n", num);
+
     return 0;
 }
