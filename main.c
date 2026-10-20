@@ -1,9 +1,11 @@
 #include <stdio.h>
 
-int main(void) {
-    /* 課題0301: prinfのカッコの中を記入して、変数iの中身を表示させてください */
-    int i;
-    scanf("%d",&i);
-    printf(); 
+int main(void)
+{
+    int num;
+
+    scanf("%d", &num);
+    printf("%d\n", num);
+
     return 0;
 }
